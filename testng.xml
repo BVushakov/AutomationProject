@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Converter app test suite">
+    <test name="Temperature Convertor Test">
+        <classes>
+            <class name="project.WeightConverterTest"/>
+            <class name="project.TemperatureConvertorTest"/>
+        </classes>
+    </test>
+</suite>

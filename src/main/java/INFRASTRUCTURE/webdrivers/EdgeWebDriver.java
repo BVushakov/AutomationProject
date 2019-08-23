@@ -3,6 +3,7 @@ package INFRASTRUCTURE.webdrivers;
 import INFRASTRUCTURE.IWebDriver;
 
 public class EdgeWebDriver implements IWebDriver {
+
     @Override
     public void open(String url) {
         System.out.println("Edge open url " + url);

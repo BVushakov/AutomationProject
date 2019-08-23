@@ -3,6 +3,7 @@ package INFRASTRUCTURE.webdrivers;
 import INFRASTRUCTURE.IWebDriver;
 
 public class ChromeWebDriver implements IWebDriver {
+
     @Override
     public void open(String url) {
         System.out.println("Chrome open url " + url);

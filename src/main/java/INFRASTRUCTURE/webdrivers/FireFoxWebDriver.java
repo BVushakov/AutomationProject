@@ -3,6 +3,7 @@ package INFRASTRUCTURE.webdrivers;
 import INFRASTRUCTURE.IWebDriver;
 
 public class FireFoxWebDriver implements IWebDriver {
+
     @Override
     public void open(String url) {
         System.out.println("FireFox open url " + url);

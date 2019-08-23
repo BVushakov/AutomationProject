@@ -3,6 +3,7 @@ package INFRASTRUCTURE.webdrivers;
 import INFRASTRUCTURE.IWebDriver;
 
 public class SafariWebDriver implements IWebDriver {
+
     @Override
     public void open(String url) {
         System.out.println("Safari open url " + url);

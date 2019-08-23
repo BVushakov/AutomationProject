@@ -10,6 +10,7 @@ public class WebDriverFactory implements IWebDriverFactory {
 
     @Override
     public IWebDriver create() {
+
         IWebDriver driver = null;
 
         String browserChromeConfig = ConfigurationManager.getInstance().getBrowser();

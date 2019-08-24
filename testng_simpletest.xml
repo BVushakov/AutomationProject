@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test suite for Simple test">
+    <test name="Simple test">
+        <classes>
+            <class name="selenium_test.SimpleTest"/>
+        </classes>
+    </test>
+</suite>

@@ -24,18 +24,12 @@ public class RegistrationTest {
     @BeforeClass
     public void setUpBeforeClass() {
         WebDriverManager.chromedriver().setup();
-//        existingUser = new User();
-//        existingUser.setUserName("007");
-//        existingUser.setFirstName("James");
-//        existingUser.setLastName("Bond");
-//        existingUser.setEmail("bond_james@gmail.com");
-//        existingUser.setPassword("bond007");
         existingUser = new User();
-        existingUser.setUserName("dick");
-        existingUser.setFirstName("dickname");
-        existingUser.setLastName("dicklastname");
-        existingUser.setEmail("dick@gmail.com");
-        existingUser.setPassword("dick666");
+        existingUser.setUserName("007");
+        existingUser.setFirstName("James");
+        existingUser.setLastName("Bond");
+        existingUser.setEmail("bond_james@gmail.com");
+        existingUser.setPassword("bond007");
     }
 
     @BeforeMethod
